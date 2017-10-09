@@ -1,0 +1,23 @@
+{
+  "name": "svg-sprites",
+  "version": "0.0.1",
+  "description": "Example of using different types of svg sprites.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigsergey/svg-sprites.git"
+  },
+  "keywords": [
+    "svg",
+    "sprites",
+    "css"
+  ],
+  "author": "Sergey Bolshov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bigsergey/svg-sprites/issues"
+  },
+  "homepage": "https://github.com/bigsergey/svg-sprites#readme"
+}
