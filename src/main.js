@@ -1,3 +1,3 @@
-require("./style.css");
+require('./style.css');
 
-document.write("It works.");
+require('../css/sprite.scss');

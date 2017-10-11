@@ -6,11 +6,16 @@ var SVGSpriter = require('svg-sprite'),
   fs = require('fs'),
   config = {
     "mode": {
-      "css": true,
-      "view": true,
-      "defs": true,
-      "symbol": true,
-      "stack": true
+      "css": {
+        prefix: '.icon-%s',
+        render: {
+          scss: true
+        }
+      },
+      "view": false,
+      "defs": false,
+      "symbol": false,
+      "stack": false
     }
   },
   spriter = new SVGSpriter(config);
