@@ -10,21 +10,30 @@ var SVGSpriter = require('svg-sprite'),
         prefix: '.icon-bg-%s',
         render: {
           scss: true
-        }
+        },
+        example: true
       },
       "view": {
         prefix: '.icon-bg-view-%s',
         render: {
           scss: true
-        }
+        },
+        example: true
       },
       "defs": {
         prefix: '.icon-def-%s',
         render: {
           scss: true
-        }
+        },
+        example: true
       },
-      "symbol": false,
+      "symbol": {
+        prefix: '.icon-symbol-%s',
+        render: {
+          scss: true
+        },
+        example: true
+      },
       "stack": false
     }
   },
