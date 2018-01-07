@@ -7,13 +7,23 @@ var SVGSpriter = require('svg-sprite'),
   config = {
     "mode": {
       "css": {
-        prefix: '.icon-%s',
+        prefix: '.icon-bg-%s',
         render: {
           scss: true
         }
       },
-      "view": false,
-      "defs": false,
+      "view": {
+        prefix: '.icon-bg-view-%s',
+        render: {
+          scss: true
+        }
+      },
+      "defs": {
+        prefix: '.icon-def-%s',
+        render: {
+          scss: true
+        }
+      },
       "symbol": false,
       "stack": false
     }
