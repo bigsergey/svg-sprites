@@ -34,7 +34,9 @@ var SVGSpriter = require('svg-sprite'),
         },
         example: true
       },
-      "stack": false
+      "stack": {
+        example: true,
+      }
     }
   },
   spriter = new SVGSpriter(config);
